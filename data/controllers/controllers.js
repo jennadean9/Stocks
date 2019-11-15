@@ -1,4 +1,4 @@
-const Index = require("../models/stockIndex.js");
+const Index = require("../models/company.js");
 
 const stockInfoController = {
   index: (req, res) => {
