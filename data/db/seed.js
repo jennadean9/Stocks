@@ -1,4 +1,4 @@
-const Index = require("../models/Company.js");
+const Index = require("../models/company.js");
 const data = require("./stocks.json");
 
 Index.remove({}).then(() => {
@@ -9,6 +9,6 @@ Index.remove({}).then(() => {
     })
     .catch(err => {
       console.log(err);
-      process.exit();
+      //   process.exit();
     });
 });
